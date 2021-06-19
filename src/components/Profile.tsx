@@ -1,10 +1,15 @@
+import styles from '../styles/components/Profile.module.css';
+
 export function Profile() {
     return (
-        <div>
-            <img src="https://avatars.githubusercontent.com/u/72613742?s=400&u=7a8c7fa77827d8f4ccbc990fb226419a571f9f9b&v=4"alt="Edson Nascimento" />
+        <div className={styles.profileContainer}>
+            <img src="https://media-exp3.licdn.com/dms/image/C4D03AQGbiv60VhHplg/profile-displayphoto-shrink_200_200/0/1605665349545?e=1629331200&v=beta&t=1J6yBcm38v3Hm1WXY4u9Yo0wPs8jW6-PWG_s2YmiBzo"alt="Edson Nascimento" />
             <div>
                 <strong>Edson Nascimento</strong>
-                <p>Level 1</p>
+                <p>
+                    <img src="icons/level.svg" alt="level" />
+                    Level 1
+                </p>
             </div>
         </div>
     );
