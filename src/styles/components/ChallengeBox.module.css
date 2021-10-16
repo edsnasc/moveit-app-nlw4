@@ -1,7 +1,7 @@
 .challengeBoxContainer {
     height: 100%;
 
-    background: var(--white);
+    background: var(--title);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     padding: 1.5rem 2rem;
@@ -12,6 +12,7 @@
     justify-content: center;
 
     text-align: center;
+    color: var(--background);
 }
 
 .challengeNotActive {
@@ -47,11 +48,11 @@
 }
 
 .challengeActive header {
-    color: var(--blue);
+    color: var(--text);
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
-    border-bottom: 1px solid var(--gray-line);
+    border-bottom: 1px solid var(--red);
 }
 
 .challengeActive main {
@@ -65,7 +66,7 @@
 .challengeActive main strong {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--title);
+    color: var(--red);
     margin: 1.5rm 0 1rem;
 }
 
@@ -96,11 +97,11 @@
 }
 
 .challengeActive footer button.challengeFailedButton {
-    background: var(--red);
+    background: var(--linear_1);
 }
 
 .challengeActive footer button.challengeSucceededButton {
-    background: var(--green);
+    background: var(--linear_2);
 }
 
 .challengeActive footer button:hover {

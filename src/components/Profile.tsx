@@ -7,7 +7,7 @@ export function Profile() {
 
     return (
         <div className={styles.profileContainer}>
-            <img src="https://media-exp3.licdn.com/dms/image/C4D03AQGbiv60VhHplg/profile-displayphoto-shrink_200_200/0/1605665349545?e=1629331200&v=beta&t=1J6yBcm38v3Hm1WXY4u9Yo0wPs8jW6-PWG_s2YmiBzo"alt="Edson Nascimento" />
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGbiv60VhHplg/profile-displayphoto-shrink_200_200/0/1605665349545?e=1639612800&v=beta&t=p3kjocZqEQrIyAQ4oeL9s-6I4trPgXRoCDUJz87Hmq8"alt="Edson Nascimento" />
             <div>
                 <strong>Edson Nascimento</strong>
                 <p>

@@ -6,16 +6,13 @@
 
 :root {
     --white: #fff;
-    --background: #f2f3f5;
-    --gray-line: #dcdde0;
-    --text: #666666;
-    --texti-highlight: #b3b9ff;
-    --title: #2e384d;
+    --background: #000;
+    --background_2: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));;
+    --text: #ffd11a;
+    --title: linear-gradient(to right, rgb(19, 106, 138), rgb(38, 120, 113));;
     --red: #e83f5b;
-    --green: #4cd62b;
-    --blue: #5965e0;
-    --blue-dark: #4953b8;
-    --blue-twitter: #2aa9e2;
+    --linear_1: linear-gradient(to right, rgb(192, 36, 37), rgb(240, 203, 53));;
+    --linear_2: linear-gradient(to right, rgb(86, 171, 47), rgb(168, 224, 99));
 }
 
 @media(max-width: 1080px) {
